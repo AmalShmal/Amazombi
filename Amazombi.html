@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Амазомби;интернет-магазин</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./site/Amazombi.css" />
+</head>
+<style>
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    top: 360px;
+    left: 35px;
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 50rem;
+    height: 100%;
+    margin: 1rem;
+    position: relative;
+  }
+
+  h2 {
+    margin: 2rem;
+    font-size: 20px;
+  }
+
+  .searchbar {
+    position: absolute;
+    font-size: 2.4rem;
+    left: 60px;
+    width: 30rem;
+    height: 5rem;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: rgba(200, 255, 186, 0.9);
+    border-radius: 4px;
+    padding: 2rem;
+    transition: all .1s;
+    transition-delay: .1s;
+  }
+
+  .searchbar:hover {
+    width: 35rem;
+    height: 6rem;
+  }
+
+  .button {
+    left: 265px;
+    height: 3rem;
+    top: 365px;
+    position: absolute;
+    right: 3rem;
+    transition: all .2s;
+    transition-delay: .2s;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+
+  .searchbar:hover+.button {
+    height: 4rem;
+
+  }
+
+  .searchbar::placeholder {
+    opacity: .3;
+  }
+</style>
+
+<body>
+
+  <div class="container">
+    <input type="text" maxlength="12" placeholder="Поиск" class="searchbar">
+    <img src="./картинки/ГЛАЗ.ico" alt="ГЛАЗ" class="button">
+  </div>
+
+  <div class="image1"></div>
+  <div class="image2"></div>
+  <div class="image3"></div>
+  <div class="image4"></div>
+  <div class="image6"></div>
+  <a href="./site/Товар.html">
+    <div class="image5"></div>
+  </a>
+</body>
+
+</html>

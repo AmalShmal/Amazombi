@@ -1,0 +1,75 @@
+body{
+  background: url("../картинки/Слайдер.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image1 {
+  top: 720px;
+  position: absolute;
+  left: 160rem;
+  width: 120px;
+  height: 30px;
+  background: url("../картинки/плашки меню.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image2 {
+  top: 780px;
+  position: absolute;
+  left: 0;
+  width: 1518px;
+  height: 1050px;
+  background: url("../картинки/Каталог\ товаров.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.image3 {
+  top: 1820px;
+  position: absolute;
+  left: 110px;
+  width: 1310px;
+  height: 2700px;
+  background: url("../картинки/все товары кроме .jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image4 {
+  position: absolute;
+  top: 4550px;
+  left: 0;
+  width: 1518px;
+  height: 360px;
+  background: url("../картинки/Footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image5 {
+  top: 1820px;
+  position: absolute;
+  left: 122px;
+  width: 300px;
+  height: 429px;
+  background: url("../картинки/МОГИЛКА.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all .7s ease-in-out;
+}
+
+.image5:hover {
+  transform: scale(1.105);
+}
+
+.image6 {
+  top: 1087px;
+  position: absolute;
+  left: 110px;
+  width: 1310px;
+  height: 900px;
+  background: url("../картинки/предложения.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image5 {
+  position: absolute;
+  top: 499px;
+  left: 120px;
+  width: 166px;
+  height: 42px;
+  background: url("../картинки/купить.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image1 {
+  background: url("../картинки/Характеристика кроме.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1100px;
+}
+
+.image2 {
+  margin: 10vw;
+  width: 1363px;
+  background: url("../картинки/товары.jpg");
+  background-size: 80vw;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+.image3 {
+  position: absolute;
+  top: 2200px;
+  left: 0;
+  width: 1518px;
+  height: 360px;
+  background: url("../картинки/Footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image4 {
+  position: absolute;
+  top: 60px;
+  left: 115px;
+  width: 33px;
+  height: 23px;
+  background: url("../картинки/стрелочка.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
